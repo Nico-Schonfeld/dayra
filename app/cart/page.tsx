@@ -12,13 +12,12 @@ import { toast } from "@/components/ui/use-toast";
 import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 import { Magnetic } from "@/components/ui/magnetic";
+// Opciones de spring para el efecto magnético
 export const springOptions = { bounce: 0.1 };
 
 export default function CartPage() {
   const { items, removeItem, updateQuantity, clearCart, total } = useCart();
   const [isProcessing, setIsProcessing] = useState(false);
-
-  // Opciones de spring para el efecto magnético
 
   // Generar un ID de orden aleatorio
   const generateOrderId = () => {
@@ -60,7 +59,7 @@ export default function CartPage() {
     message += `¡Gracias! 🙏`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/543549446648?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/${process.env.NEXT_PUBLIC_PHONE_WP}?text=${encodedMessage}`;
 
     // Simular procesamiento
     setTimeout(() => {
