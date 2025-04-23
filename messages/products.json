@@ -1,0 +1,416 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Aritos \"Flor de cristal\"",
+      "description": "Aritos con pasante de acero quirúrgico, elaborado con cristal de roca, ideales para darle un detallito a tu look. ",
+      "description_2": "Su medida es de 2,5 cm aproximadamente incluyendo el pasante.",
+      "price": 4300,
+      "images": [
+        "/assets/Aritos/Aritos “Flor de cristal”/20240808_170221.jpg",
+        "/assets/Aritos/Aritos “Flor de cristal”/20240808_170231.jpg",
+        "/assets/Aritos/Aritos “Flor de cristal”/20240808_170446.jpg",
+        "/assets/Aritos/Aritos “Flor de cristal”/20240808_171425.jpg",
+        "/assets/Aritos/Aritos “Flor de cristal”/Imagen de WhatsApp 2024-10-14 a las 13.33.30_e8278d31.jpg"
+      ],
+      "category": "Aritos",
+      "material": "Acero quirúrgico",
+      "features": ["Cristal de roca", "Largo 2.5cm", "Acero quirúrgico"],
+      "stock": 10,
+      "sku": "AR-FLO-001",
+      "tags": ["Aritos", "Flor de cristal", "Acero quirúrgico"]
+    },
+    {
+      "id": 2,
+      "name": "Aritos \"Cerecitas\"",
+      "description": "Completá tu look con esta combinación perfecta de sutileza y elegancia, elaborados con acero quirúrgico, tanto sus ganchos como sus cadenas, alambres y argollas. Cada uno tiene una cerecita de menos de 1cm cada una y un cristal de roca transparente para darle ese toque de brillo sutil.",
+      "description_2": "Tienen en total un largo de 4 cm incluyendo el gancho.",
+      "price": 3600,
+      "images": [
+        "/assets/Aritos/Aritos Cerecitas/Adobe_Express_20231221_2019320_1.png"
+      ],
+      "category": "Aritos",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Cerecitas < 1cm",
+        "Cristal de roca transparente",
+        "Largo total 4cm",
+        "Acero quirúrgico"
+      ],
+      "stock": 10,
+      "sku": "AR-CER-001",
+      "tags": ["Aritos", "Cerecitas", "Acero quirúrgico"]
+    },
+    {
+      "id": 3,
+      "name": "Aritos pasantes \"Corazón de cristal\"",
+      "description": "Aritos pasantes elaborados con acero quirúrgico y un corazón de cristal de roca transparente. ",
+      "description_2": "Su medida es de 3 cm de largo incluyendo el ganchito.",
+      "price": 4000,
+      "images": [
+        "/assets/Aritos/Aritos pasantes “Corazón de cristal”/20240808_170928.jpg",
+        "/assets/Aritos/Aritos pasantes “Corazón de cristal”/Adobe_Express_20240504_1507590_6.png",
+        "/assets/Aritos/Aritos pasantes “Corazón de cristal”/Adobe_Express_20240504_1507590_7.png",
+        "/assets/Aritos/Aritos pasantes “Corazón de cristal”/IMG-20240611-WA0022.jpg"
+      ],
+      "category": "Aritos",
+      "material": "Acero quirúrgico",
+      "features": ["Corazón de cristal", "Largo 3cm", "Acero quirúrgico"],
+      "stock": 10,
+      "sku": "AR-COR-001",
+      "tags": ["Aritos", "Corazón de cristal", "Acero quirúrgico"]
+    },
+    {
+      "id": 4,
+      "name": "Aritos \"Encanto floreado\" sin cadena",
+      "description": "Aritos con florcitas blancas de menos de 1 cm. Elaborado a mano con mostacillas blancas perladas y acero quirúrgico, tanto el gancho como la argollita. ",
+      "description_2": "Su medida es de 3 cm aproximadamente incluyendo el gancho.",
+      "price": 3000,
+      "images": [
+        "/assets/Aritos/Aritos “Encanto floreado” sin cadena/Adobe_Express_20240212_1709040_1.png"
+      ],
+      "category": "Aritos",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Florcitas < 1cm",
+        "Mostacillas blancas perladas",
+        "Largo 3cm",
+        "Hecho a mano"
+      ],
+      "stock": 10,
+      "sku": "AR-ENC-001",
+      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"]
+    },
+    {
+      "id": 5,
+      "name": "Aritos \"Encanto floreado\" colgante simple",
+      "description": "Para aquellas personas que deseen acompañar su look con solo una florcita, este es su lugar. Su largo total es de 4 cm, incluyendo el ganchito. Además, sus florcitas son tan pequeñas que miden menos de 1 cm. ",
+      "description_2": "Están elaborados artesanalmente y lo metálico es acero quirúrgico.",
+      "price": 3600,
+      "images": [
+        "/assets/Aritos/Aritos “Encanto floreado” colgante simple/Adobe_Express_20231221_2019320_2.png"
+      ],
+      "category": "Aritos",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Florcitas < 1cm",
+        "Largo 4cm",
+        "Hecho a mano",
+        "Acero quirúrgico"
+      ],
+      "stock": 10,
+      "sku": "AR-ENC-002",
+      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"]
+    },
+    {
+      "id": 6,
+      "name": "Aritos \"Encanto floreado\" colgante doble",
+      "description": "Aritos de acero quirúrgico elaborados artesanalmente con florcitas blancas perladas de menos de 1 cm, cristal de roca transparente.",
+      "description_2": null,
+      "price": 4000,
+      "images": [
+        "/assets/Aritos/Aritos “Encanto floreado” colgante doble/Adobe_Express_20231002_1704190_1.png",
+        "/assets/Aritos/Aritos “Encanto floreado” colgante doble/Adobe_Express_20231020_1623000_1.png"
+      ],
+      "category": "Aritos",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Florcitas blancas perladas < 1cm",
+        "Cristal de roca transparente",
+        "Hecho a mano",
+        "Acero quirúrgico"
+      ],
+      "stock": 10,
+      "sku": "AR-ENC-003",
+      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"]
+    },
+    {
+      "id": 7,
+      "name": "Collar \"Cerecitas\"",
+      "description": "Elaborado artesanalmente, este collar está compuesto de 3 cerecitas (¡de menos de 1cm cada una!), acero quirúrgico y 4 cristales de roca transparentes.",
+      "description_2": "Su medida es de 42 cm aprox. + 4-5cm aprox. de extensión",
+      "price": 6300,
+      "images": [
+        "/assets/Collares/Collar Cerecitas/Adobe_Express_20231218_1852130_1.png",
+        "/assets/Collares/Collar Cerecitas/Adobe_Express_20231218_1853320_2.png",
+        "/assets/Collares/Collar Cerecitas/Adobe_Express_20231218_1853320_3.png"
+      ],
+      "badge": "Nuevo",
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "3 cerecitas < 1cm",
+        "4 cristales de roca",
+        "Largo 42cm + extensión",
+        "Hecho a mano"
+      ],
+      "stock": 10,
+      "sku": "CO-CER-001",
+      "tags": ["Collares", "Cerecitas", "Acero quirúrgico"]
+    },
+    {
+      "id": 8,
+      "name": "Collar 'Estrellitas'",
+      "description": "Dale ese tono mágico a tu look, para que lleves a la luna y al brillo de las estrellas en cada paso. Elaborado artesanalmente, este collar está compuesto por perlas blancas de vidrio y cristales de roca y estrellas acrílicas en tonos rosados. Su dije de luna y todo lo metálico que se observa son de acero quirúrgico.",
+      "description_2": "Su medida es de 40cm + 5cm con su cadena de extensión",
+      "price": 13500,
+      "images": [
+        "/assets/Collares/Collar “Estrellitas”/Adobe_Express_20231218_1821100_1.png",
+        "/assets/Collares/Collar “Estrellitas”/Adobe_Express_20231218_1821100_2.png",
+        "/assets/Collares/Collar “Estrellitas”/Adobe_Express_20231218_1821100_3.png",
+        "/assets/Collares/Collar “Estrellitas”/Adobe_Express_20231218_1821100_4.png",
+        "/assets/Collares/Collar “Estrellitas”/Adobe_Express_20231218_1821100_5.png"
+      ],
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Perlas blancas de vidrio",
+        "Cristales de roca",
+        "Estrellas acrílicas rosadas",
+        "Dije de luna",
+        "Largo 40cm + extensión"
+      ],
+      "stock": 10,
+      "sku": "CO-EST-001",
+      "tags": ["Collares", "Estrellitas", "Acero quirúrgico"]
+    },
+    {
+      "id": 9,
+      "name": "Collar 'Corazones danzantes'",
+      "description": "Collar curvo con corazoncitos en tonos rosados. Elaborado a mano con acero quirúrgico, semillas y cristal de acrílico con mostacillas plateadas.",
+      "description_2": "Su medida es de 42 cm aprox. + 4-5cm aprox. de extensión",
+      "price": 7600,
+      "images": ["/placeholder.svg"],
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Corazones rosados",
+        "Cristal de acrílico",
+        "Mostacillas plateadas",
+        "Largo 42cm + extensión"
+      ],
+      "stock": 10,
+      "sku": "CO-COR-001",
+      "tags": ["Collares", "Corazones danzantes", "Acero quirúrgico"]
+    },
+    {
+      "id": 10,
+      "name": "Collar 'Flor encantada'",
+      "description": "Elaborado artesanalmente con acero quirúrgico, cristal de roca de colores y transparentes.",
+      "description_2": "Su medida es de 42 cm + 5cm aprox. de extensión",
+      "price": 9600,
+      "images": [
+        "/assets/Collares/Collar Flor encantada/Adobe_Express_20231020_1604560_1.png",
+        "/assets/Collares/Collar Flor encantada/Adobe_Express_20231020_1559060_1.png",
+        "/assets/Collares/Collar Flor encantada/Adobe_Express_20231020_1604560_1.png"
+      ],
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Cristal de roca multicolor",
+        "Largo 42cm + extensión",
+        "Hecho a mano"
+      ],
+      "stock": 10,
+      "sku": "CO-FLO-001",
+      "tags": ["Collares", "Flor encantada", "Acero quirúrgico"]
+    },
+    {
+      "id": 11,
+      "name": "Collar 'Rocío matutino'",
+      "description": "Collar en tonos blanco perlados. Elaborado a mano con acero quirúrgico, cristal de roca blanco, cubitos y semillas de acrílico.",
+      "description_2": "Su medida es de 40 cm + 5 cm aprox. de extensión",
+      "price": 8200,
+      "images": [
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231002_1646070_1.png",
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231002_1647270_1.png",
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231002_1648320_1.png",
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231002_1649330_1.png",
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231020_1630110_1.png",
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231021_1442230_1.png",
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231021_1443300_1.png"
+      ],
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Tonos blanco perlados",
+        "Cristal de roca blanco",
+        "Cubitos y semillas de acrílico",
+        "Largo 40cm + extensión"
+      ],
+      "stock": 10,
+      "sku": "CO-ROC-001",
+      "tags": ["Collares", "Rocío matutino", "Acero quirúrgico"]
+    },
+    {
+      "id": 12,
+      "name": "Collar 'Sueños floreados'",
+      "description": "Elaborado a mano con acero quirúrgico, tiene tres florcitas blancas de menos de 1 cm, 4 cristales de vidrio transparente y mostacillas blancas perladas.",
+      "description_2": "Su medida es de 40 cm + 5 cm aprox. de extensión",
+      "price": 4900,
+      "images": [
+        "/assets/Collares/Collar Sueños floreados/Adobe_Express_20231002_1650290_1.png",
+        "/assets/Collares/Collar Sueños floreados/Adobe_Express_20231020_1625220_1.png",
+        "/assets/Collares/Collar Sueños floreados/Adobe_Express_20231002_1651200_1.png"
+      ],
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "3 florcitas < 1cm",
+        "4 cristales de vidrio",
+        "Mostacillas blancas perladas",
+        "Largo 40cm + extensión"
+      ],
+      "stock": 10,
+      "sku": "CO-SUE-001",
+      "tags": ["Collares", "Sueños floreados", "Acero quirúrgico"]
+    },
+    {
+      "id": 13,
+      "name": "Collar 'Susurro de Romance' simple",
+      "description": "Con dos tamaños de perlas de vidrio que aportan un toque de delicadeza, es perfecto para acompañarte tanto para ocasiones especiales como para el día a día. Elaborado artesanalmente con acero quirúrgico y perlas de vidrio de dos tamaños diferentes.",
+      "description_2": "Su medida es de 41 cm + 5cm con su cadena de extensión",
+      "price": 9000,
+      "images": [
+        "/assets/Collares/Collar Susurro de Romance simple/Adobe_Express_20231218_1839400_1.png",
+        "/assets/Collares/Collar Susurro de Romance simple/Adobe_Express_20231218_1839400_2.png",
+        "/assets/Collares/Collar Susurro de Romance simple/Adobe_Express_20231218_1839400_3.png"
+      ],
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Perlas de vidrio en dos tamaños",
+        "Largo 41cm + extensión",
+        "Hecho a mano"
+      ],
+      "stock": 10,
+      "sku": "CO-SUS-001",
+      "tags": ["Collares", "Susurro de Romance", "Acero quirúrgico"]
+    },
+    {
+      "id": 14,
+      "name": "Collar 'Osito'",
+      "description": "Elaborado a mano con acero quirúrgico, tiene corazoncitos en color perla, cristal de vidrio transparente y un dije de osito de menos de 1 cm.",
+      "description_2": "Su medida es de 40 cm aprox. + 5cm aprox. de extensión",
+      "price": 9200,
+      "images": [
+        "/assets/Collares/Collar Osito/Adobe_Express_20231002_1644220_1.png",
+        "/assets/Collares/Collar Osito/Adobe_Express_20231002_1642170_1.png",
+        "/assets/Collares/Collar Osito/Adobe_Express_20231002_1640350_1.png",
+        "/assets/Collares/Collar Osito/Adobe_Express_20231002_1638090_1.png"
+      ],
+      "category": "Collares",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Dije de osito < 1cm",
+        "Corazoncitos color perla",
+        "Cristal de vidrio",
+        "Largo 40cm + extensión"
+      ],
+      "stock": 10,
+      "sku": "CO-OSI-001",
+      "tags": ["Collares", "Osito", "Acero quirúrgico"]
+    },
+    {
+      "id": 15,
+      "name": "COMBO 'Sueños floreados'",
+      "description": "Collar con 3 florcitas de mostacillas perladas de menos de 1cm cada una junto con un par de aritos del mismo estilo. Todo está elaborado a mano.",
+      "description_2": "Cada pieza metálica es de acero quirúrgico, tanto alambres como ganchos, cadenas y argollitas, ideales para quienes prefieran piezas que duren en el tiempo. Medida del collar: 40 cm + 5 cm aprox. de extensión. Medida de los aritos: 3cm aprox.",
+      "price": 7600,
+      "images": [
+        "/assets/Combos/COMBO Sueños floreados/Adobe_Express_20240212_1709040_1.png",
+        "/assets/Combos/COMBO Sueños floreados/Adobe_Express_20240212_1630060_1.png",
+        "/assets/Combos/COMBO Sueños floreados/Adobe_Express_20240212_1709040_1.png"
+      ],
+      "category": "Combos",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Collar y aritos a juego",
+        "3 florcitas < 1cm",
+        "Mostacillas perladas",
+        "Hecho a mano"
+      ],
+      "stock": 10,
+      "sku": "CB-SUE-001",
+      "tags": ["Combos", "Sueños floreados", "Acero quirúrgico"]
+    },
+    {
+      "id": 16,
+      "name": "COMBO \"Cerecita\"",
+      "description": "Ideal para quien quiere darle un detalle fresco a su look. Elaborado artesanalmente, el collar está compuesto de 3 cerecitas (¡de menos de 1cm cada una!), acero quirúrgico y 4 cristales de roca transparentes. ",
+      "description_2": "Medida del collar: 42 cm aprox. + 4-5cm aprox. de extensión. Medida de los aritos: largo de 4 cm incluyendo el gancho.",
+      "price": 8900,
+      "images": [
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1839400_4.png",
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1839400_5.png",
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1839400_6.png",
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1839400_7.png",
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1852130_1.png",
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1853320_2.png",
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1853320_3.png",
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231221_2019320_1.png"
+      ],
+      "category": "Combos",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Collar y aritos a juego",
+        "3 cerecitas < 1cm",
+        "4 cristales de roca",
+        "Hecho a mano"
+      ],
+      "stock": 10,
+      "sku": "CB-CER-001",
+      "tags": ["Combos", "Cerecita", "Acero quirúrgico"]
+    },
+    {
+      "id": 17,
+      "name": "COMBO 'Flor de cristal'",
+      "description": "Dale un detallito a tu look con este combo elaborado artesanalmente con acero quirúrgico, cristal de roca de colores y transparentes. ",
+      "description_2": "Medida del collar: 42 cm + 5 cm aprox. de extensión. Medida de los aritos: 2,5 cm aprox. incluyendo el pasante.",
+      "price": 12500,
+      "images": [
+        "/assets/Combos/COMBO Flor de cristal/20241115_193814.jpg",
+        "/assets/Combos/COMBO Flor de cristal/20241115_193827.jpg",
+        "/assets/Combos/COMBO Flor de cristal/Adobe_Express_20231020_1609260_1.png",
+        "/assets/Combos/COMBO Flor de cristal/Adobe_Express_20231020_1611210_1.png"
+      ],
+      "category": "Combos",
+      "material": "Acero quirúrgico",
+      "features": [
+        "Collar y aritos a juego",
+        "Cristal de roca multicolor",
+        "Hecho a mano"
+      ],
+      "stock": 10,
+      "sku": "CB-FLO-001",
+      "tags": ["Combos", "Flor de cristal", "Acero quirúrgico"]
+    },
+    {
+      "id": 18,
+      "name": "Pulsera artesanal",
+      "description": "Pulsera elaborada artesanalmente con acero quirúrgico.",
+      "description_2": null,
+      "price": 4700,
+      "images": ["/placeholder.svg"],
+      "category": "Pulseras",
+      "material": "Acero quirúrgico",
+      "features": ["Hecho a mano", "Acero quirúrgico"],
+      "stock": 0,
+      "sku": "PU-ART-001",
+      "tags": ["Pulseras", "Pulsera artesanal", "Acero quirúrgico"]
+    }
+  ],
+  "categories": ["Todos", "Aritos", "Collares", "Combos", "Pulseras"],
+  "priceRanges": [
+    "Todos los precios",
+    "Menos de $5000",
+    "$5000 - $10000",
+    "Más de $10000"
+  ],
+  "sortOptions": [
+    "Más nuevos",
+    "Precio: Menor a Mayor",
+    "Precio: Mayor a Menor",
+    "Populares"
+  ]
+}
