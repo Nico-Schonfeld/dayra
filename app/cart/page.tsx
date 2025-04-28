@@ -12,12 +12,15 @@ import { toast } from "@/components/ui/use-toast";
 import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 import { Magnetic } from "@/components/ui/magnetic";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 // Opciones de spring para el efecto magnético
 export const springOptions = { bounce: 0.1 };
 
 export default function CartPage() {
   const { items, removeItem, updateQuantity, clearCart, total } = useCart();
   const [isProcessing, setIsProcessing] = useState(false);
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
 
   // Generar un ID de orden aleatorio
   const generateOrderId = () => {
@@ -30,6 +33,15 @@ export default function CartPage() {
         title: "Carrito vacío",
         description:
           "Agrega algunos productos a tu carrito antes de realizar un pedido.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    if (!acceptedTerms) {
+      toast({
+        title: "Términos no aceptados",
+        description: "Debes aceptar los términos y condiciones para realizar el pedido.",
         variant: "destructive",
       });
       return;
@@ -326,38 +338,60 @@ export default function CartPage() {
                     <span>${total.toFixed(2)}</span>
                   </div>
 
-                  <Magnetic
-                    intensity={0.2}
-                    springOptions={springOptions}
-                    actionArea="global"
-                    range={200}
-                  >
-                    <Button
-                      className="w-full text-sm sm:text-base"
-                      size="lg"
-                      onClick={handleOrderViaWhatsApp}
-                      disabled={isProcessing || items.length === 0}
-                    >
-                      {isProcessing ? (
-                        <div className="flex items-center">
-                          <div className="animate-spin mr-2 h-4 w-4 border-2 border-current border-t-transparent rounded-full"></div>
-                          Procesando...
-                        </div>
-                      ) : (
-                        <Magnetic
-                          intensity={0.1}
-                          springOptions={springOptions}
-                          actionArea="global"
-                          range={200}
+                  <div className="space-y-4">
+                    <div className="flex items-start space-x-2">
+                      <Checkbox
+                        id="terms"
+                        checked={acceptedTerms}
+                        onCheckedChange={(checked) => setAcceptedTerms(checked as boolean)}
+                     className="mt-1.5"
+                     />
+                      <div>
+                        <Label
+                          htmlFor="terms"
+                          className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                         >
-                          <div className="flex items-center ">
-                            <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                            Ordenar por WhatsApp
+                          Acepto los <Link href="/terms" className="text-primary hover:underline" target="_blank">Términos y Condiciones</Link>
+                        </Label>
+                        <p className="text-xs text-muted-foreground mt-1">
+                          También aceptás la <Link href="/privacy" className="hover:underline" target="_blank">Política de Privacidad</Link>, <Link href="/shipping" className="hover:underline" target="_blank">Políticas de Envío</Link> y <Link href="/returns" className="hover:underline" target="_blank">Políticas de Devolución</Link>.
+                        </p>
+                      </div>
+                    </div>
+
+                    <Magnetic
+                      intensity={0.2}
+                      springOptions={springOptions}
+                      actionArea="global"
+                      range={200}
+                    >
+                      <Button
+                        className="w-full text-sm sm:text-base"
+                        size="lg"
+                        onClick={handleOrderViaWhatsApp}
+                        disabled={isProcessing || items.length === 0 || !acceptedTerms}
+                      >
+                        {isProcessing ? (
+                          <div className="flex items-center">
+                            <div className="animate-spin mr-2 h-4 w-4 border-2 border-current border-t-transparent rounded-full"></div>
+                            Procesando...
                           </div>
-                        </Magnetic>
-                      )}
-                    </Button>
-                  </Magnetic>
+                        ) : (
+                          <Magnetic
+                            intensity={0.1}
+                            springOptions={springOptions}
+                            actionArea="global"
+                            range={200}
+                          >
+                            <div className="flex items-center ">
+                              <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                              Ordenar por WhatsApp
+                            </div>
+                          </Magnetic>
+                        )}
+                      </Button>
+                    </Magnetic>
+                  </div>
 
                   <p className="text-[10px] sm:text-xs text-muted-foreground text-center mt-4">
                     Al realizar un pedido, aceptas nuestros Términos de Servicio

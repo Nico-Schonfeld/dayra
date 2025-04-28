@@ -12,7 +12,7 @@ const carouselItems = [
   {
     id: 1,
     image:
-      "/assets/Aritos/Aritos “Encanto floreado” colgante doble/Adobe_Express_20231020_1623000_1.png",
+      "/assets/carrusel/aritos.jpg",
     title: "Aritos",
     subtitle:
       "Descubre nuestra elegante colección de aritos y aros para realzar tu belleza",
@@ -23,7 +23,7 @@ const carouselItems = [
   {
     id: 2,
     image:
-      "/assets/Collares/Collar Susurro de Romance/Adobe_Express_20231021_1454470_1.png",
+      "/assets/carrusel/collar.jpg",
     title: "Collares",
     subtitle:
       "Descubre nuestra elegante colección de collares, donde cada pieza cuenta una historia de romance y sofisticación",
@@ -31,16 +31,7 @@ const carouselItems = [
     link: "/#shop",
     position: "left",
   },
-  {
-    id: 3,
-    image: "/assets/Combos/COMBO Flor de cristal/20241115_193827.jpg",
-    title: "Combos",
-    subtitle:
-      "Descubre nuestras combinaciones especialmente seleccionadas para ti",
-    cta: "Ver colección",
-    link: "/#shop",
-    position: "right",
-  },
+ 
 ];
 
 export default function HeroCarousel() {

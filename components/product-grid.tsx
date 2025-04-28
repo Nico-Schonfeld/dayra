@@ -100,7 +100,7 @@ export default function ProductGrid() {
   }, []);
 
   // Filtrar productos
-  let filteredProducts = products;
+  let filteredProducts = products.filter(product => !product.hidden);
 
   // Aplicar filtro de búsqueda
   if (searchQuery) {

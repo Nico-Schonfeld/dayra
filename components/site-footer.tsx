@@ -25,10 +25,10 @@ export default function SiteFooter() {
               especial a tu estilo personal.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="rounded-full">
+              {/* <Button variant="ghost" size="icon" className="rounded-full">
                 <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">Facebook</span>
-              </Button>
+              </Button> */}
               <Link
                 href="https://www.instagram.com/dayra.accesorios/"
                 target="_blank"
@@ -38,14 +38,14 @@ export default function SiteFooter() {
                   <span className="sr-only">Instagram</span>
                 </Button>
               </Link>
-              <Button variant="ghost" size="icon" className="rounded-full">
+              {/* <Button variant="ghost" size="icon" className="rounded-full">
                 <Twitter className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">Twitter</span>
               </Button>
               <Button variant="ghost" size="icon" className="rounded-full">
                 <Youtube className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">YouTube</span>
-              </Button>
+              </Button> */}
             </div>
           </div>
 
@@ -146,7 +146,7 @@ export default function SiteFooter() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm sm:text-base text-muted-foreground">
                 <MapPin className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0 mt-0.5" />
-                <span>Calle Moda 123, Ciudad Estilo, CE 12345</span>
+                <span>Agüero 1434, Villa Mercedes, San Luis, Argentina</span>
               </li>
               <li className="flex items-center gap-3 text-sm sm:text-base text-muted-foreground">
                 <Phone className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
@@ -158,7 +158,7 @@ export default function SiteFooter() {
               </li>
             </ul>
 
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <h4 className="text-sm sm:text-base font-medium mb-2">
                 Suscríbete a nuestro boletín
               </h4>
@@ -172,7 +172,7 @@ export default function SiteFooter() {
                   Suscribirse
                 </Button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

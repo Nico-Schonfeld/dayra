@@ -71,8 +71,9 @@ export default function Home() {
           </div>
         </section>
       </InView>
-
-      <InView
+      
+    {/* Testimonials */}
+      {/* <InView
         variants={{
           hidden: { opacity: 0, y: 100, filter: "blur(4px)" },
           visible: { opacity: 1, y: 0, filter: "blur(0px)" },
@@ -80,14 +81,14 @@ export default function Home() {
         viewOptions={{ margin: "0px 0px -200px 0px" }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
-        {/* Testimonials */}
         <section className="py-20 bg-muted/30">
           <div className="container px-4 md:px-6">
             <Testimonials />
           </div>
         </section>
-      </InView>
+      </InView> */}
 
+     {/* About Section */}
       <InView
         variants={{
           hidden: { opacity: 0, y: 100, filter: "blur(4px)" },
@@ -96,7 +97,6 @@ export default function Home() {
         viewOptions={{ margin: "0px 0px -200px 0px" }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
-        {/* About Section */}
         <section id="about" className="py-20">
           <div className="container px-4 md:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -142,7 +142,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative h-[500px] rounded-2xl overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/assets/isologotipo.png')] bg-cover bg-center"></div>
+                <div className="absolute inset-0 bg-[url('/assets/quien-soy.jpg')] bg-cover bg-center"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
                   <blockquote className="text-xl italic font-serif">
@@ -157,6 +157,7 @@ export default function Home() {
         </section>
       </InView>
 
+   {/* Sección de Preguntas Frecuentes */}
       <InView
         variants={{
           hidden: { opacity: 0, y: 100, filter: "blur(4px)" },
@@ -165,7 +166,6 @@ export default function Home() {
         viewOptions={{ margin: "0px 0px -200px 0px" }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
-        {/* Sección de Preguntas Frecuentes */}
         <section className="py-16 bg-muted/30">
           <div className="container">
             <div className="text-center mb-12">

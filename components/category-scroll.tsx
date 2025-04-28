@@ -6,46 +6,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-const categories = [
-  {
-    id: 1,
-    name: "Aritos",
-    image:
-      "/assets/Aritos/Aritos “Encanto floreado” colgante doble/Adobe_Express_20231002_1704190_1.png",
-    count: 6,
-    filter: "Aritos",
-    description: "Aritos delicados y elegantes para cada ocasión",
-  },
-  {
-    id: 2,
-    name: "Collares",
-    image:
-      "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231020_1630110_1.png",
-    count: 9,
-    filter: "Collares",
-    description: "Collares únicos que realzan tu estilo personal",
-  },
-  {
-    id: 3,
-    name: "Combos",
-    image:
-      "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1853320_3.png",
-    count: 3,
-    filter: "Combos",
-    description: "Conjuntos especialmente seleccionados para ti",
-  },
-  {
-    id: 4,
-    name: "Pulseras",
-    image: "/placeholder.svg?height=600&width=400",
-    count: 0,
-    filter: "Pulseras",
-    description: "Pulseras artesanales con diseños exclusivos",
-  },
-];
+import { categoriesSection } from "@/messages/products.json";
 
 export default function CategoryScroll() {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const visibleCategories = categoriesSection.filter(category => !category.hidden);
+  const shouldShowCarousel = visibleCategories.length > 3;
 
   const scroll = (direction: "left" | "right") => {
     if (scrollRef.current) {
@@ -88,24 +54,26 @@ export default function CategoryScroll() {
       </motion.div>
 
       <div className="relative px-4 md:px-8">
-        <Button
-          variant="ghost"
-          size="icon"
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-background/80 backdrop-blur-sm rounded-full shadow-md hover:bg-background"
-          onClick={() => scroll("left")}
-        >
-          <ChevronLeft className="h-6 w-6" />
-          <span className="sr-only">Desplazar izquierda</span>
-        </Button>
+        {shouldShowCarousel && (
+          <Button
+            variant="ghost"
+            size="icon"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-background/80 backdrop-blur-sm rounded-full shadow-md hover:bg-background"
+            onClick={() => scroll("left")}
+          >
+            <ChevronLeft className="h-6 w-6" />
+            <span className="sr-only">Desplazar izquierda</span>
+          </Button>
+        )}
 
         <div
           ref={scrollRef}
-          className="flex space-x-6 overflow-x-auto pb-8 scrollbar-hide snap-x snap-mandatory"
+          className={`flex ${shouldShowCarousel ? 'space-x-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory' : 'justify-center gap-6 flex-wrap'}`}
         >
-          {categories.map((category, index) => (
+          {visibleCategories.map((category, index) => (
             <motion.div
               key={category.id}
-              className="flex-none w-[300px] snap-center"
+              className={`${shouldShowCarousel ? 'flex-none w-[300px] snap-center' : 'w-[300px]'}`}
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -142,15 +110,17 @@ export default function CategoryScroll() {
           ))}
         </div>
 
-        <Button
-          variant="ghost"
-          size="icon"
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-background/80 backdrop-blur-sm rounded-full shadow-md hover:bg-background"
-          onClick={() => scroll("right")}
-        >
-          <ChevronRight className="h-6 w-6" />
-          <span className="sr-only">Desplazar derecha</span>
-        </Button>
+        {shouldShowCarousel && (
+          <Button
+            variant="ghost"
+            size="icon"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-background/80 backdrop-blur-sm rounded-full shadow-md hover:bg-background"
+            onClick={() => scroll("right")}
+          >
+            <ChevronRight className="h-6 w-6" />
+            <span className="sr-only">Desplazar derecha</span>
+          </Button>
+        )}
       </div>
     </div>
   );

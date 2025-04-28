@@ -18,7 +18,8 @@
       "features": ["Cristal de roca", "Largo 2.5cm", "Acero quirúrgico"],
       "stock": 10,
       "sku": "AR-FLO-001",
-      "tags": ["Aritos", "Flor de cristal", "Acero quirúrgico"]
+      "tags": ["Aritos", "Flor de cristal", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 2,
@@ -39,7 +40,8 @@
       ],
       "stock": 10,
       "sku": "AR-CER-001",
-      "tags": ["Aritos", "Cerecitas", "Acero quirúrgico"]
+      "tags": ["Aritos", "Cerecitas", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 3,
@@ -58,7 +60,8 @@
       "features": ["Corazón de cristal", "Largo 3cm", "Acero quirúrgico"],
       "stock": 10,
       "sku": "AR-COR-001",
-      "tags": ["Aritos", "Corazón de cristal", "Acero quirúrgico"]
+      "tags": ["Aritos", "Corazón de cristal", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 4,
@@ -79,7 +82,8 @@
       ],
       "stock": 10,
       "sku": "AR-ENC-001",
-      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"]
+      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 5,
@@ -100,7 +104,8 @@
       ],
       "stock": 10,
       "sku": "AR-ENC-002",
-      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"]
+      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 6,
@@ -122,7 +127,8 @@
       ],
       "stock": 10,
       "sku": "AR-ENC-003",
-      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"]
+      "tags": ["Aritos", "Encanto floreado", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 7,
@@ -146,7 +152,8 @@
       ],
       "stock": 10,
       "sku": "CO-CER-001",
-      "tags": ["Collares", "Cerecitas", "Acero quirúrgico"]
+      "tags": ["Collares", "Cerecitas", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 8,
@@ -172,7 +179,8 @@
       ],
       "stock": 10,
       "sku": "CO-EST-001",
-      "tags": ["Collares", "Estrellitas", "Acero quirúrgico"]
+      "tags": ["Collares", "Estrellitas", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 9,
@@ -180,7 +188,9 @@
       "description": "Collar curvo con corazoncitos en tonos rosados. Elaborado a mano con acero quirúrgico, semillas y cristal de acrílico con mostacillas plateadas.",
       "description_2": "Su medida es de 42 cm aprox. + 4-5cm aprox. de extensión",
       "price": 7600,
-      "images": ["/placeholder.svg"],
+      "images": ["/assets/Collares/Collar Corazones danzantes/Adobe_Express_20231020_1559060_1.png",
+    "/assets/Collares/Collar Corazones danzantes/Adobe_Express_20231020_1604560_1.png"
+    ],
       "category": "Collares",
       "material": "Acero quirúrgico",
       "features": [
@@ -191,7 +201,8 @@
       ],
       "stock": 10,
       "sku": "CO-COR-001",
-      "tags": ["Collares", "Corazones danzantes", "Acero quirúrgico"]
+      "tags": ["Collares", "Corazones danzantes", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 10,
@@ -200,9 +211,7 @@
       "description_2": "Su medida es de 42 cm + 5cm aprox. de extensión",
       "price": 9600,
       "images": [
-        "/assets/Collares/Collar Flor encantada/Adobe_Express_20231020_1604560_1.png",
-        "/assets/Collares/Collar Flor encantada/Adobe_Express_20231020_1559060_1.png",
-        "/assets/Collares/Collar Flor encantada/Adobe_Express_20231020_1604560_1.png"
+        "/placeholder.svg"
       ],
       "category": "Collares",
       "material": "Acero quirúrgico",
@@ -213,7 +222,8 @@
       ],
       "stock": 10,
       "sku": "CO-FLO-001",
-      "tags": ["Collares", "Flor encantada", "Acero quirúrgico"]
+      "tags": ["Collares", "Flor encantada", "Acero quirúrgico"],
+    "hidden": true
     },
     {
       "id": 11,
@@ -240,7 +250,8 @@
       ],
       "stock": 10,
       "sku": "CO-ROC-001",
-      "tags": ["Collares", "Rocío matutino", "Acero quirúrgico"]
+      "tags": ["Collares", "Rocío matutino", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 12,
@@ -263,7 +274,8 @@
       ],
       "stock": 10,
       "sku": "CO-SUE-001",
-      "tags": ["Collares", "Sueños floreados", "Acero quirúrgico"]
+      "tags": ["Collares", "Sueños floreados", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 13,
@@ -285,7 +297,8 @@
       ],
       "stock": 10,
       "sku": "CO-SUS-001",
-      "tags": ["Collares", "Susurro de Romance", "Acero quirúrgico"]
+      "tags": ["Collares", "Susurro de Romance", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 14,
@@ -309,7 +322,8 @@
       ],
       "stock": 10,
       "sku": "CO-OSI-001",
-      "tags": ["Collares", "Osito", "Acero quirúrgico"]
+      "tags": ["Collares", "Osito", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 15,
@@ -332,7 +346,8 @@
       ],
       "stock": 10,
       "sku": "CB-SUE-001",
-      "tags": ["Combos", "Sueños floreados", "Acero quirúrgico"]
+      "tags": ["Combos", "Sueños floreados", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 16,
@@ -360,7 +375,8 @@
       ],
       "stock": 10,
       "sku": "CB-CER-001",
-      "tags": ["Combos", "Cerecita", "Acero quirúrgico"]
+      "tags": ["Combos", "Cerecita", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 17,
@@ -383,7 +399,8 @@
       ],
       "stock": 10,
       "sku": "CB-FLO-001",
-      "tags": ["Combos", "Flor de cristal", "Acero quirúrgico"]
+      "tags": ["Combos", "Flor de cristal", "Acero quirúrgico"],
+      "hidden": false
     },
     {
       "id": 18,
@@ -397,7 +414,8 @@
       "features": ["Hecho a mano", "Acero quirúrgico"],
       "stock": 0,
       "sku": "PU-ART-001",
-      "tags": ["Pulseras", "Pulsera artesanal", "Acero quirúrgico"]
+      "tags": ["Pulseras", "Pulsera artesanal", "Acero quirúrgico"],
+      "hidden": true
     }
   ],
   "categories": ["Todos", "Aritos", "Collares", "Combos", "Pulseras"],
@@ -412,5 +430,46 @@
     "Precio: Menor a Mayor",
     "Precio: Mayor a Menor",
     "Populares"
+  ],
+  "categoriesSection": [
+    {
+      "id": 1,
+      "name": "Aritos",
+      "image":
+        "/assets/Aritos/Aritos “Encanto floreado” colgante doble/Adobe_Express_20231002_1704190_1.png",
+      "count": 6,
+      "filter": "Aritos",
+      "description": "Aritos delicados y elegantes para cada ocasión",
+      "hidden": false
+    },
+    {
+      "id": 2,
+      "name": "Collares",
+      "image":
+        "/assets/Collares/Collar Rocío matutino/Adobe_Express_20231020_1630110_1.png",
+      "count": 9,
+      "filter": "Collares",
+      "description": "Collares únicos que realzan tu estilo personal",
+      "hidden": false
+    },
+    {
+      "id": 3,
+      "name": "Combos",
+      "image":
+        "/assets/Combos/COMBO “Cerecita”/Adobe_Express_20231218_1853320_3.png",
+      "count": 3,
+      "filter": "Combos",
+      "description": "Conjuntos especialmente seleccionados para ti",
+      "hidden": false
+    },
+    {
+      "id": 4,
+      "name": "Pulseras",
+      "image": "/placeholder.svg?height=600&width=400",
+      "count": 0,
+      "filter": "Pulseras",
+      "description": "Pulseras artesanales con diseños exclusivos",
+      "hidden": true
+    }
   ]
 }

@@ -524,24 +524,24 @@ export default function ProductPage() {
                     <h3 className="text-base sm:text-lg font-medium">
                       Instrucciones de Cuidado
                     </h3>
-                    <p className="text-sm sm:text-base text-muted-foreground">
-                      Para mejores resultados, siga las instrucciones de cuidado
-                      específicas para este producto. El cuidado adecuado
-                      asegurará la longevidad y mantendrá la calidad de su
-                      compra.
-                    </p>
                     <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base text-muted-foreground">
-                      <li>Limpiar con un paño suave y seco</li>
                       <li>
-                        Evitar la exposición prolongada a la luz solar directa
+                        <span className="font-medium">Evitar el contacto con productos químicos y agua:</span> Para preservar la calidad de tus accesorios, evitá que entren en contacto directo con productos como perfumes, cremas, lociones, agua, detergentes o limpiadores abrasivos, ya que pueden dañar el material y el acabado.
                       </li>
                       <li>
-                        Almacenar en un lugar fresco y seco cuando no esté en
-                        uso
+                        <span className="font-medium">Mantener secos:</span> Evitá la exposición prolongada al agua, ya que aunque nuestros productos están hechos de materiales resistentes como acero quirúrgico, el contacto frecuente con agua puede acelerar el desgaste. Si es necesario, secalos inmediatamente con un paño suave.
                       </li>
                       <li>
-                        Consultar el manual incluido para instrucciones
-                        detalladas de cuidado
+                        <span className="font-medium">Guardado adecuado:</span> Cuando no estés usando tus accesorios, guardalos en un lugar seco y fresco. Lo ideal es mantenerlos en una caja o bolsa para evitar rayones o que se enreden con otros accesorios.
+                      </li>
+                      <li>
+                        <span className="font-medium">Limpieza suave:</span> Limpiá tus accesorios con un paño suave y seco para quitar el polvo o la suciedad. Si necesitas una limpieza más profunda, utiliza agua tibia con un poco de jabón neutro y un paño suave. Secalos completamente antes de guardarlos.
+                      </li>
+                      <li>
+                        <span className="font-medium">Evitá golpes:</span> Para evitar que se deformen o rayen, no los uses en actividades que impliquen movimientos bruscos o golpes.
+                      </li>
+                      <li>
+                        <span className="font-medium">Cuidado con los productos delicados:</span> Si tus accesorios incluyen piedras, perlas, cristales u otros elementos decorativos, tené cuidado de no exponerlos a golpes fuertes o caídas que puedan dañarlos.
                       </li>
                     </ul>
                   </div>
