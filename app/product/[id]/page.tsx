@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useParams, notFound } from "next/navigation";
+import { useParams, notFound, useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -27,7 +27,7 @@ import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 import { toast } from "sonner";
 import { toggleCopy } from "@/utils/toggleCopy";
-import { decryptId, decryptIdPublic } from "@/utils/encodeDecode";
+import { decryptId, decryptIdPublic, encryptIdPublic } from "@/utils/encodeDecode";
 import { Magnetic } from "@/components/ui/magnetic";
 import { springOptions } from "@/app/cart/page";
 
@@ -61,6 +61,9 @@ export default function ProductPage() {
   const [selectedSize, setSelectedSize] = useState("");
   const [quantity, setQuantity] = useState(1);
   const { addItem } = useCart();
+
+  const router = useRouter();
+
 
   let productId;
   const originalCode = decodeURIComponent(id as string);
@@ -373,7 +376,7 @@ export default function ProductPage() {
               </div>
 
               {/* Stock Status */}
-              <div className="flex items-center text-xs sm:text-sm">
+              {/* <div className="flex items-center text-xs sm:text-sm">
                 <div
                   className={`mr-2 h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full ${
                     product.stock > 0 ? "bg-green-500" : "bg-red-500"
@@ -384,7 +387,7 @@ export default function ProductPage() {
                     ? `En Stock (${product.stock} disponibles)`
                     : "Agotado"}
                 </span>
-              </div>
+              </div> */}
 
               {/* Actions */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4">
@@ -557,10 +560,16 @@ export default function ProductPage() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               {relatedProducts.map((relatedProduct) => (
-                <Link
+                <div
                   key={relatedProduct.id}
-                  href={`/product/${relatedProduct.id}`}
-                  className="group"
+                  onClick={() => {
+                    const productIdEncrypted = encodeURIComponent(
+                      encryptIdPublic(relatedProduct.id.toString()) || ""
+                    );
+
+                    router.push(`/product/${productIdEncrypted}`);
+                  }}
+                  className="group cursor-pointer"
                 >
                   <div className="relative aspect-square rounded-xl overflow-hidden">
                     <Image
@@ -590,7 +599,7 @@ export default function ProductPage() {
                       </span>
                     </div>
                   </div>
-                </Link>
+                </div>
               ))}
             </div>
           </div>
